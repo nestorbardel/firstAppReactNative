@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { View, Text} from 'react-native';
 import { globalStyles } from '../theme/global.styles';
 import { FAB } from 'react-native-paper';
-import Icon from 'react-native-vector-icons/Ionicons';
 
 
 export const CounterM3Screen = () => {

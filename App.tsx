@@ -6,7 +6,8 @@ import { PaperProvider } from 'react-native-paper';
 // import { CounterM3Screen } from './src/presentation/screens/CounterM3Screen';
 // import { HelloWorldScreen } from './src/presentation/screens/HelloWorldScreen';
 import IonIcon from 'react-native-vector-icons/Ionicons';
-import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
+// import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
+import { DimensionScreen } from './src/presentation/screens/DimensionScreen';
 
 export const App = () => {
   return (
@@ -19,7 +20,8 @@ export const App = () => {
         {/* <HelloWorldScreen name='Nestor Bardel'/> */}
         {/* <CounterScreen/> */}
         {/* <CounterM3Screen/> */}
-        <BoxObjectModelScreen/>
+        {/* <BoxObjectModelScreen/> */}
+        <DimensionScreen/>
       </SafeAreaView>
     </PaperProvider>
   );

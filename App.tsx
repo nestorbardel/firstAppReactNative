@@ -7,6 +7,7 @@ import { PaperProvider } from 'react-native-paper';
 // import { HelloWorldScreen } from './src/presentation/screens/HelloWorldScreen';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import FlexDirectionScreen from './src/presentation/screens/FlexDirectionScreen';
+import { HomeworkScreen } from './src/presentation/screens/HomeworkScreen';
 // import FlexScreen from './src/presentation/screens/FlexScreen.tsx';
 // import PositionScreen from './src/presentation/screens/PositionScreen';
 // import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
@@ -27,7 +28,8 @@ export const App = () => {
         {/* <DimensionScreen/> */}
         {/* <PositionScreen/>*/}
         {/* <FlexScreen/> */}
-        <FlexDirectionScreen/>
+        {/* <FlexDirectionScreen/> */}
+        <HomeworkScreen/>
       </SafeAreaView>
     </PaperProvider>
   );
